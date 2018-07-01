@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">JournalApp3</string>
+    <string name="app_name">Journal App</string>
+    <string name="no_entries">No entry</string>
+    <string name="no_entries_content">You don\'t have any entries yet, why don\'t you go ahead and add one?</string>
+    <string name="hint_text_entry">Whats on your mind?</string>
+    <string name="save_menu">SAVE</string>
+    <string name="edit_entry">Edit</string>
 </resources>
