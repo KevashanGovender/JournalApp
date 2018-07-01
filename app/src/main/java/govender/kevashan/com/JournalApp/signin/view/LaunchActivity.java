@@ -12,6 +12,7 @@ import com.firebase.ui.auth.AuthUI;
 import java.util.Arrays;
 import java.util.List;
 
+import govender.kevashan.com.JournalApp.journal.view.HomeActivity;
 import govender.kevashan.com.JournalApp.signin.viewmodel.SignInViewModel;
 import govender.kevashan.com.journalapp3.R;
 
@@ -66,7 +67,8 @@ public class LaunchActivity extends AppCompatActivity implements ISignInView {
 
     @Override
     public void launchHomeScreen() {
-        Toast.makeText(this, "Sign in successful", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 
     @Override
